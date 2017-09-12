@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tutoriel - Mongodb
+title: Installation - Mongodb
 categories:
-    - Post
+    - Mongodb
 comments: true
 permalink: youtube-embed.html
 ---
