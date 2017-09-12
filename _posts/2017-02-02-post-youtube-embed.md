@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Post - Youtube Embed
+title: Tutoriel - Mongodb
 categories:
-    - Post
+    - Mongodb
 comments: true
 permalink: youtube-embed.html
 ---
 
 
-YouTube video embed below.
+Simple Installation de Mongodb sur MAC avec Homebrew
 
-<iframe style="width: 100%; height: 600px;" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe style="width: 100%; height: 600px;" src="https://www.youtube-nocookie.com/embed/Ut5WEcubfv4?controls=0&amp;showinfo=0 frameborder="0" allowfullscreen></iframe>
