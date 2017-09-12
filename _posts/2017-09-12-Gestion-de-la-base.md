@@ -3,7 +3,7 @@ layout: post
 title: Gestion de la base(collections) - Mongodb
 categories:
     - Mongodb
-thumbnail : /assets/images/categories/mongodb.jpeg
+thumbnail : /assets/images/posts/mongodb.jpeg
 comments: true
 permalink: syntax-highlighting.html
 ---
