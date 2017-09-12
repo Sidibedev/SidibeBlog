@@ -4,6 +4,7 @@ title: Gestion de la base(collections) - Mongodb
 categories:
     - Mongodb
 comments: true
+thumbnail: /assets/images/categories/mongodb.jpeg
 permalink: youtube.html
 ---
 
