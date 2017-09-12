@@ -20,7 +20,7 @@ layout: default
     <div class="container is-fluid">
         {% for post in paginator.posts %}
         <div class="card post-card">
-            {% if post.thumbnail %}
+            
             <div class="card-image">
                 <figure class="image">
                     <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
@@ -28,7 +28,7 @@ layout: default
                     </a>
                 </figure>
             </div>
-            {% endif %}
+            
             <div class="card-content">
                 <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
                 <p class="post-categories">
