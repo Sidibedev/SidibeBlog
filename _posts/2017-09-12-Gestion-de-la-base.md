@@ -3,8 +3,8 @@ layout: post
 title: Gestion de la base(collections) - Mongodb
 categories:
     - Mongodb
-comments: true
 thumbnail: /assets/images/post/syntax.jpg
+comments: true
 permalink: youtube.html
 ---
 
