@@ -3,7 +3,6 @@ layout: post
 title: Installation - Mongodb
 categories:
     - Mongodb
-thumbnail : /assets/images/posts/mongodb.png
 comments: true
 permalink: youtube-embed.html
 
