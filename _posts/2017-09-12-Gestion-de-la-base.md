@@ -4,7 +4,7 @@ title: Gestion de la base(collections) - Mongodb
 categories:
     - Mongodb
 comments: true
-permalink: youtube-embed.html
+permalink: youtube.html
 ---
 
 
