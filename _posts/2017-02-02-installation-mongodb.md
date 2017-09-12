@@ -2,7 +2,7 @@
 layout: post
 title: Tutoriel - Mongodb
 categories:
-    - Mongodb
+    - post
 comments: true
 permalink: youtube-embed.html
 ---
