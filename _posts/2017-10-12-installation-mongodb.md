@@ -5,7 +5,7 @@ categories:
     - Mongodb
 comments: true
 permalink: youtube-embed.html
-date : 12 septembre 2017 
+
 ---
 
 
