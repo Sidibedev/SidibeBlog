@@ -4,7 +4,7 @@ title: Installation - Mongodb
 categories:
     - Mongodb
 comments: true
-permalink: youtube-embed.html
+permalink: Installation.html
 
 ---
 
