@@ -5,7 +5,7 @@ categories:
     - Mongodb
 thumbnail : /assets/images/categories/mongodb.jpeg
 comments: true
-permalink: youtube.html
+permalink: syntax-highlighting.html
 ---
 
 
