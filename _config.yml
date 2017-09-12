@@ -4,21 +4,21 @@ baseurl: /jekyll-bulma
 url: http://erayaydin.github.io
 download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
 social:
-  github: erayaydin
-  email: aydineray@mail.com
-  facebook:
-  twitter: erayaydi
-  instagram:
+  github: Sidibedev
+  email: Mouhamed.aly.sidibe96&gmaill.com
+  facebook: suudipp.carter
+  twitter: mouhamedaly01
+  instagram: momo__sidibe
   tumblr:
 author:
-  name: Eray AYDIN
-  bio: "Senior PHP Developer and Linux System Administrator, Free Software Fan, Archy (On Way Trust User), Junior Game Developer"
-  email: aydineray@mail.com
+  name: Mouhamed Aly Sidibe 
+  bio: "Web & Mobile Developer , Junior Dev , Code Love "
+  email: Mouhamed.aly.sidibe96&gmaill.com
   image: /assets/images/author.jpg
-  github: erayaydin
-  facebook: erayaydi
-  twitter: erayaydi
-  instagram:
+  github: Sidibedev
+  facebook: suudipp.carter
+  twitter: mouhamedaly01
+  instagram: momo__sidibe
   tumblr:
   show_on_post: true
 permalink: /:categories/:title/
