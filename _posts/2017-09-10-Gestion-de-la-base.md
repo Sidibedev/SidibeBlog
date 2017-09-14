@@ -11,4 +11,4 @@ datepub : 12 Septembre 2017
 
 Gestion de la base de donnees(collections) Mongodb
 
-<iframe style="width: 100%; height: 600px;" src="https://www.youtube-nocookie.com/embed/D47ybA8DJ4Y?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRd0EafW9n9O2MFT8CgPrWHVNn57Oj1TgBb0NMTikCkhm2a_shPuZ_uZTrtSiuA8nO86DdlQwTFNVSa/pub?embedded=true"></iframe>
