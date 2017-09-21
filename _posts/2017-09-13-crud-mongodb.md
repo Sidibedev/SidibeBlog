@@ -4,7 +4,7 @@ title: CRUD - Mongodb
 categories:
     - Mongodb
 comments: true
-permalink: CRUD.html
+permalink: crude.html
 datepub : 13 Septembre 2017
 ---
 

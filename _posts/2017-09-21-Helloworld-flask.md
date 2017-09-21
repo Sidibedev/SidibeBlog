@@ -4,7 +4,7 @@ title: Helloworld flask
 categories:
     - Flask , Mongodb
 comments: true
-permalink: CRUD.html
+permalink: hello.html
 datepub : 13 Septembre 2017
 ---
 

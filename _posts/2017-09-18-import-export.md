@@ -4,7 +4,7 @@ title: Import / export de données dans une Base mongodb
 categories:
     - Mongodb
 comments: true
-permalink: CRUD.html
+permalink: import.html
 datepub : 13 Septembre 2017
 ---
 
