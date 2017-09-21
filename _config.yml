@@ -1,7 +1,7 @@
 name: Mouhamed Aly Sidibe
 description: "Blog de Mohamed Aly Sidibe"
 baseurl: /SidibeBlog
-url: http://Sidibedev.github.io
+url: http://Sidibedev.github.io/SidibeBlog
 download: 
 social:
   github: Sidibedev
@@ -25,7 +25,7 @@ permalink: /:categories/:title/
 sass:
   style: compressed
 paginate: 5
-paginate_path: "SidibeBlog/:num/"
+paginate_path: "/:num/"
 markdown: kramdown
 
 gems:
