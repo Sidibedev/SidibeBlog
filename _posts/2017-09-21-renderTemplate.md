@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  rendertemplate 
+title:  Rendertemplate 
 categories:
     - Flask , Mongodb
 comments: true
