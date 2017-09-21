@@ -4,7 +4,7 @@ title: Installation de flask
 categories:
     - Flask , Mongodb
 comments: true
-permalink: CRUD.html
+permalink: install.html
 datepub : 13 Septembre 2017
 ---
 
