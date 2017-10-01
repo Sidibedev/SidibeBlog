@@ -38,8 +38,7 @@ layout: default
                     {% endfor %}
                 </p>
                 {{ post.excerpt }}
-                <p><small>{{post.date:"%a, %b %d, %y"}}</small></p>
-                
+                <p><small>{{ post.date | date: "%a, %b %d, %y" }}</small></p>
             </div>
         </div>
         <br>
