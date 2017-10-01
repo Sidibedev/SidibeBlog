@@ -39,6 +39,7 @@ layout: default
                 </p>
                 {{ post.excerpt }}
                 <p><small>{{post.date}}</small></p>
+                <p><small>{{ article.published_at | date: "%a, %b %d, %y" }}</small></p>
             </div>
         </div>
         <br>
