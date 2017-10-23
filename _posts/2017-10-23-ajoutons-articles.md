@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ajoutons de nouveaux articles
+title: Ajoutons de nouveaux articles
 categories:
     - Flask , Mongodb
 comments: true
