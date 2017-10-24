@@ -44,8 +44,14 @@ layout: default
         <br>
         {% endfor %}
         <nav class="pagination is-centered">
-            <!--<a {% if paginator.previous_page %}href="..{{  paginator.previous_page_path }}"{% endif %} class="pagination-previous {% if paginator.previous_page %}{% else %} is-disabled {% endif %}">Precedent</a>
-            <a {% if paginator.next_page %}href="..{{  paginator.next_page_path }}"{% endif %} class="pagination-next {% if paginator.next_page %}{% else %} is-disabled {% endif %}">Suivant </a> -->
+                {% if page != 1 %}
+
+                <a {% if paginator.previous_page %}href="..{{  paginator.previous_page_path }}"{% endif %} class="pagination-previous {% if paginator.previous_page %}{% else %} is-disabled {% endif %}">Precedent</a>
+                <a {% if paginator.next_page %}href="..{{  paginator.next_page_path }}"{% endif %} class="pagination-next {% if paginator.next_page %}{% else %} is-disabled {% endif %}">Suivant </a>
+
+                {% endif %}
+
+           
             <ul class="pagination-list">
                 {% for page in (1..paginator.total_pages) %}
                 <li>
