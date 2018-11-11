@@ -1,0 +1,54 @@
+/* Variables & Mixins */
+$font-stack: Arial, Helvetica, sans-serif;
+
+$primary-color: #333;
+
+$light-gray: #ccc;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow(){
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.12);
+}
+
+body
+{margin: 20px; color: $primary-color; font-family: $font-stack; background:#f5f5f5;}
+
+a
+{text-decoration:none;}
+
+p
+{font-size:14px; margin:8px 0;}
+
+.card
+{background: white; width:300px; margin:100px auto;
+@include border-radius(5px); overflow:hidden;
+ @include box-shadow();}
+
+.card >.thumbnail
+{height:200px; background:#E64C66;}
+
+.card .summary
+{padding:5px 20px;}
+
+.card .summary > h3
+{font-weight: bold; margin: 10px 0;}
+
+.card p.category
+{text-transform: uppercase; font-weight:bold;}
+
+p a.tag:first-child
+{margin-left:0;}
+
+a.tag
+{display:inline-block; margin:0 3px; font-size:12px; font-weight:bold; color: $primary-color;}
+
+.clearfix:after
+{}
