@@ -1,54 +1,78 @@
-/* Variables & Mixins */
-$font-stack: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Song+Myung');
 
-$primary-color: #333;
-
-$light-gray: #ccc;
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+li, ul, p, h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-@mixin box-shadow(){
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.12);
+body {
+  background-color: #E6F5F7;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  position: relative;
+  font-family: 'Song Myung', serif;
+  font-size: 25px;
+  font-weight: 500;
 }
 
-body
-{margin: 20px; color: $primary-color; font-family: $font-stack; background:#f5f5f5;}
+h3:after {
+    content: '';
+    width: 100px;
+  background-color: #bada55;
+  width: 100px;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+/*     position: absolute; */
+/*     bottom: 5px; */
+/*     z-index: 1; */
+}
 
-a
-{text-decoration:none;}
+li {
+  background-color: #fefefe;
+  border: #e5e5e5 1px solid;
+  border-radius: 5px;
+  max-width:" 700px";
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-gap: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-p
-{font-size:14px; margin:8px 0;}
+.crd-details {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 100px 300px 1fr;
+  align-items: center;
+}
 
-.card
-{background: white; width:300px; margin:100px auto;
-@include border-radius(5px); overflow:hidden;
- @include box-shadow();}
+.readmore {
+  background-color: red;
+  width: 30%;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #fefefe;
+   background: linear-gradient(to right, #bada55 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: #bada55;
+  transition: .5s ease-in;
+  border: #bada55 solid 1px;
+  cursor: pointer;
+}
 
-.card >.thumbnail
-{height:200px; background:#E64C66;}
+.readmore:hover {
+  background-position: left bottom;
+  color: #fff;
+}
 
-.card .summary
-{padding:5px 20px;}
-
-.card .summary > h3
-{font-weight: bold; margin: 10px 0;}
-
-.card p.category
-{text-transform: uppercase; font-weight:bold;}
-
-p a.tag:first-child
-{margin-left:0;}
-
-a.tag
-{display:inline-block; margin:0 3px; font-size:12px; font-weight:bold; color: $primary-color;}
-
-.clearfix:after
-{}
+.readmore span {
+  font-size: 18px;
+  font-weight: 600;
+  
+}
