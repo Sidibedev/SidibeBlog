@@ -34,7 +34,7 @@ li {
   background-color: #fefefe;
   border: #e5e5e5 1px solid;
   border-radius: 5px;
-  max-width: 700px;
+  max-width:'100%';
   margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 400px;
