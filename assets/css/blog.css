@@ -45,7 +45,7 @@ li {
 .crd-details {
   width: 90%;
   display: grid;
-  grid-template-column: 100px 300px 1fr;
+  grid-template-columns: 100px 300px 1fr;
   align-items: center;
 }
 
